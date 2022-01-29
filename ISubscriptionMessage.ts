@@ -1,3 +1,3 @@
-interface ISubscriptionMessage {
+export interface ISubscriptionMessage {
   topic: string;
 }

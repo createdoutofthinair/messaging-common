@@ -1,5 +1,5 @@
 import { ISubscriptionMessage } from "./ISubscriptionMessage.ts";
 
-interface IUserEnterMessage extends ISubscriptionMessage {
+export interface IUserEnterMessage extends ISubscriptionMessage {
   userId: string;
 }
