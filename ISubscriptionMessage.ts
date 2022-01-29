@@ -1,0 +1,3 @@
+interface ISubscriptionMessage {
+  topic: string;
+}
